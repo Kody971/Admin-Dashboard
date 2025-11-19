@@ -137,21 +137,25 @@ nav {
   grid-area: 1 / 1 / 3 / 2;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 5rem;
   background-color: rgb(0, 155, 216);
   color: white;
-  padding: 20px 10px;
+  padding: 20px 0 0 2rem;
+}
+
+nav li {
+  font-size: 1.25rem;
 }
 
 .dashboard {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 ul {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .fa-ul {
@@ -181,6 +185,12 @@ input {
   height: 1.25rem;
   border: none;
   background-color: rgba(184, 205, 223, 0.363);
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
 }
 
 img {
@@ -288,6 +298,7 @@ section h2 {
   padding: 30px 20px 10px 20px;
   height: 11rem;
   justify-content: space-between;
+  box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.1);
 }
 
 article > div:first-child {
@@ -320,6 +331,7 @@ article > div:last-child {
   flex-direction: column;
   border-radius: 5px;
   padding: 20px 20px 10px 30px;
+  box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.1);
 }
 
 h4 {
@@ -340,6 +352,10 @@ aside p {
 .middle {
   border-top: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#trending {
+  max-height: 304px;
 }
 
 #trending img {
@@ -364,5 +380,5 @@ h5 {
 }
 
 .last {
-  margin-bottom: 22px;
+  margin-bottom: 2rem;
 }
