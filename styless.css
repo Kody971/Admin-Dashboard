@@ -313,13 +313,13 @@ article > div:last-child {
   padding-bottom: 2rem;
 }
 
-#announcement > article {
+#announcement > article,
+#trending > article {
   background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-
-  padding: 20px 20px 10px 20px;
+  padding: 20px 20px 10px 30px;
 }
 
 h4 {
@@ -340,4 +340,29 @@ aside p {
 .middle {
   border-top: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#trending img {
+  width: 2.5rem;
+}
+
+#trending li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 5px 0;
+}
+
+#trending div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.last {
+  margin-bottom: 22px;
 }
