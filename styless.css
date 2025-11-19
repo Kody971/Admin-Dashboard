@@ -161,13 +161,12 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 10px 40px;
+  padding: 10px 60px 20px 40px;
 }
 
 #search {
   display: flex;
-  gap: 5rem;
-  /* border: 1px solid rebeccapurple; */
+  justify-content: space-between;
   align-items: center;
   height: 2.5rem;
 }
@@ -183,7 +182,6 @@ input {
 
 img {
   border-radius: 50%;
-  width: 50px;
 }
 
 #search > div:last-child {
@@ -198,4 +196,46 @@ img {
 
 #search h2 {
   font-weight: bolder;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero img {
+  height: 4rem;
+}
+
+#hero > div:first-child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 1.25rem;
+}
+
+#hero p {
+  font-size: x-small;
+  font-weight: bold;
+}
+
+#hero h1 {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#hero > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#hero > div:last-child div {
+  background-color: rgb(0, 155, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 2rem;
 }
